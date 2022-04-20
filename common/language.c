@@ -6,7 +6,8 @@
 #define STR_FR(_str) [SetLanguage_FR] = _str, [SetLanguage_FRCA] = _str
 #define STR_DE(_str) [SetLanguage_DE] = _str
 #define STR_IT(_str) [SetLanguage_IT] = _str
-#define STR_ES(_str) [SetLanguage_ES] = _str, [SetLanguage_ES419] = _str
+#define STR_ES(_str) [SetLanguage_ES] = _str, [SetLanguage_ES] = _str
+#define STR_ES419(_str) [SetLanguage_ES419] = _str, [SetLanguage_ES419] = _str
 #define STR_ZH_HANS(_str) [SetLanguage_ZHCN] = _str, [SetLanguage_ZHHANS] = _str
 #define STR_KO(_str) [SetLanguage_KO] = _str
 #define STR_NL(_str) [SetLanguage_NL] = _str
@@ -20,12 +21,13 @@
 #define STR_DE(_str) [3] = _str
 #define STR_IT(_str) [4] = _str
 #define STR_ES(_str) [5] = _str
-#define STR_ZH_HANS(_str) [6] = _str
-#define STR_KO(_str) [7] = _str
-#define STR_NL(_str) [8] = _str
-#define STR_PT(_str) [9] = _str
-#define STR_RU(_str) [10] = _str
-#define STR_ZH_HANT(_str) [11] = _str
+#define STR_ES419(_str) [6] = _str
+#define STR_ZH_HANS(_str) [7] = _str
+#define STR_KO(_str) [8] = _str
+#define STR_NL(_str) [9] = _str
+#define STR_PT(_str) [10] = _str
+#define STR_RU(_str) [11] = _str
+#define STR_ZH_HANT(_str) [12] = _str
 #endif
 
 const char* const g_strings[StrId_Max][17] =
@@ -34,6 +36,7 @@ const char* const g_strings[StrId_Max][17] =
     {
         STR_EN("Loading…"),
         STR_ES("Cargando…"),
+        STR_ES419("Cargando…"),
         STR_DE("Lade…"),
         STR_FR("Chargement…"),
         STR_IT("Caricamento…"),
